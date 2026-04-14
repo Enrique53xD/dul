@@ -667,6 +667,7 @@ button {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 200px;
+  grid-auto-flow: row dense;
   gap: 6px;
   max-width: 1000px;
   margin: 0 auto 4rem;
@@ -679,6 +680,7 @@ button {
 .s8__gi {
   border-radius: 3px;
   overflow: hidden;
+  opacity: 0;
   will-change: transform, opacity;
 }
 
